@@ -1,0 +1,161 @@
+html{
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+body{
+    margin: 0;
+}
+
+.white-container{
+    height: 70px;
+}
+
+.logo{
+    float: left;
+    margin-left: 110px;
+}
+
+.container{
+    margin: 10px;
+    background-color: #E78200;
+    height: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.container a{
+    padding-top: 16px;
+    font-family: "Roboto";
+}
+
+.login a{
+    padding-top: 16px;
+}
+a{
+    color: #2B2B2B;
+    text-decoration: none;
+}
+
+.login a:visited, .container-links a:visited{
+    text-decoration: none;
+    color: #2B2B2B;
+}
+
+#breakfast{
+    margin-left: 130px;
+}
+.container-links{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+.login{
+    float: right;
+    height: 50px;
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+
+#register{
+    margin-right: 130px;
+    margin-left: 20px;
+}
+
+.image{
+    width: 100%;
+    height: 50%;
+    margin-top: 0;
+}
+
+.most-popular{
+    padding-left: 135px;
+    margin-top: 200px;
+    margin-bottom: 135px;
+}
+.popular{
+    margin-top: 200px;
+    margin-bottom: 10px;
+    font-family: "Karma";
+    font-size: 36px;
+    font-weight: 600;
+    color: #2B2B2B;
+}
+
+.line-popular{
+    color: #2B2B2B;
+    width: 80%;
+    margin: 0 0 14px 0;
+}
+
+.div-cupcakes{
+    width: 40%;
+}
+.starcupcakes{
+    width: 100%;
+    margin-left: 5px;
+    float: left;
+}
+.container-recipe-popular{
+    display: flex;
+}
+.text{
+    float: right;
+    margin-left: 23px;
+    width: 40%;
+}
+
+
+.new-recipe{
+    width: 38%;
+    padding: 0 5px 0 5px;
+}
+
+.column-2{
+    margin: 10px 0px 10px 0px;
+    box-sizing: content-box;
+}
+
+.footer{
+    display: flex;
+    background-color: #E78200;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-column{
+    display: grid;
+    margin-top: 20px;
+}
+
+.categories{
+    padding-left: 130px;
+}
+
+.footer-link{
+    padding: 5px;
+    color: #FFFFFF!important;
+}
+
+.footer-link p{
+    margin: 0;
+}
+
+.container-links-footer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.login-container{
+    margin-left: 135px;
+}
+
+.register{
+    margin-left: 135px;
+}
